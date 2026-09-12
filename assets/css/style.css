@@ -482,13 +482,17 @@ html[dir="ltr"] .btn-primary:hover .nav-arrow { transform: scaleX(-1) translateX
   align-items: center;
   gap: 6px;
 }
-.footer-credit a {
+.footer-credit-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-weight: 600;
   letter-spacing: .03em;
   color: var(--ink);
   transition: color .3s var(--ease);
 }
-.footer-credit a:hover { color: var(--gold); }
+.footer-credit-link:hover { color: var(--gold); }
+.footer-credit-mark { height: 16px; width: auto; }
 
 /* ============ Reveal animation ============ */
 .reveal {
