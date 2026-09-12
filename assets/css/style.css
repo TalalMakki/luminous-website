@@ -474,6 +474,21 @@ html[dir="ltr"] .btn-primary:hover .nav-arrow { transform: scaleX(-1) translateX
 }
 .footer-social a:hover { border-color: var(--gold); color: var(--gold); }
 .footer-copy { font-size: .85rem; margin: 0; color: var(--brown-soft); }
+.footer-credit {
+  font-size: .8rem;
+  margin: 0;
+  color: var(--brown-soft);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.footer-credit a {
+  font-weight: 600;
+  letter-spacing: .03em;
+  color: var(--ink);
+  transition: color .3s var(--ease);
+}
+.footer-credit a:hover { color: var(--gold); }
 
 /* ============ Reveal animation ============ */
 .reveal {
